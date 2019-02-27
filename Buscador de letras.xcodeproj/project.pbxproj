@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		5BACE72C22210A3900C5742A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BACE72B22210A3900C5742A /* AppDelegate.swift */; };
-		5BACE72E22210A3900C5742A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BACE72D22210A3900C5742A /* ViewController.swift */; };
+		5BACE72E22210A3900C5742A /* Principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BACE72D22210A3900C5742A /* Principal.swift */; };
 		5BACE73122210A3900C5742A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BACE72F22210A3900C5742A /* Main.storyboard */; };
 		5BACE73422210A3900C5742A /* Buscador_de_letras.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BACE73222210A3900C5742A /* Buscador_de_letras.xcdatamodeld */; };
 		5BACE73622210A3C00C5742A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BACE73522210A3C00C5742A /* Assets.xcassets */; };
 		5BACE73922210A3C00C5742A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BACE73722210A3C00C5742A /* LaunchScreen.storyboard */; };
+		5BACE74122210C4D00C5742A /* mostrarCancion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BACE74022210C4C00C5742A /* mostrarCancion.swift */; };
+		5BACE743222210CF00C5742A /* CancionesGuardadasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BACE742222210CF00C5742A /* CancionesGuardadasTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5BACE72822210A3900C5742A /* Buscador de letras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buscador de letras.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BACE72B22210A3900C5742A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BACE72D22210A3900C5742A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BACE72D22210A3900C5742A /* Principal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Principal.swift; sourceTree = "<group>"; };
 		5BACE73022210A3900C5742A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BACE73322210A3900C5742A /* Buscador_de_letras.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Buscador_de_letras.xcdatamodel; sourceTree = "<group>"; };
 		5BACE73522210A3C00C5742A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BACE73822210A3C00C5742A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BACE73A22210A3C00C5742A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BACE74022210C4C00C5742A /* mostrarCancion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mostrarCancion.swift; sourceTree = "<group>"; };
+		5BACE742222210CF00C5742A /* CancionesGuardadasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancionesGuardadasTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				5BACE72B22210A3900C5742A /* AppDelegate.swift */,
-				5BACE72D22210A3900C5742A /* ViewController.swift */,
+				5BACE742222210CF00C5742A /* CancionesGuardadasTableViewController.swift */,
+				5BACE74022210C4C00C5742A /* mostrarCancion.swift */,
+				5BACE72D22210A3900C5742A /* Principal.swift */,
 				5BACE72F22210A3900C5742A /* Main.storyboard */,
 				5BACE73522210A3C00C5742A /* Assets.xcassets */,
 				5BACE73722210A3C00C5742A /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BACE72E22210A3900C5742A /* ViewController.swift in Sources */,
+				5BACE743222210CF00C5742A /* CancionesGuardadasTableViewController.swift in Sources */,
+				5BACE72E22210A3900C5742A /* Principal.swift in Sources */,
 				5BACE72C22210A3900C5742A /* AppDelegate.swift in Sources */,
+				5BACE74122210C4D00C5742A /* mostrarCancion.swift in Sources */,
 				5BACE73422210A3900C5742A /* Buscador_de_letras.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
